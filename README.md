@@ -71,3 +71,6 @@ erDiagram
 ```
 
 ## Implementation repositories
+
+- [Elixir with Phoenix](https://github.com/gustapinto/orders-elixir)
+
