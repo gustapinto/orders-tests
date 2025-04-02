@@ -1,0 +1,19 @@
+{
+  "name": "orders-tests",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "vitest": "^3.1.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "run/test": "bun run vitest ./tests"
+  },
+  "dependencies": {
+    "axios": "^1.8.4"
+  }
+}

@@ -5,14 +5,14 @@ A test suit to automatic test the "orders-*" repositories
 ## Orders api entities
 
 ```mermaid
-erDiagram     
+erDiagram
     user {
         id uuid
         created_at timestamp
         updated_at timestamp
         login string
         password string
-        role enum "SALESPERSON,CUSTOMER" 
+        role enum "SALESPERSON,CUSTOMER"
     }
 
     user_property {
@@ -63,7 +63,7 @@ erDiagram
         product_id product(id)
     }
 
-    user |o--o{ order: "places"   
+    user |o--o{ order: "places"
     order }o--o{ order_product: "with"
     order_product }o--o{ product: "with"
     product }o--o{ product_property: "has"
